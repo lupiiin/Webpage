@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Portfolio</title>
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+   
+    <header class="header" id="header">
+      <a><i class="menu material-icons"> menu </i></a>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#services">Services</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+      </nav>
+    </header>
+   
+    <section class="home" id="home">
+      <h1 class="hero-text">
+        I'm <br />
+        <span>Lawrence Laudeza</span>
+      </h1>
+      <p>“Security isn't something you buy, it's something you do, <br>and it takes talented people to do it right.” “If it's smart, it's vulnerable.”</p>
+    </section>
+  
+    <section class="about" id="about">
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="img1.jpeg" alt="" />
+          </div>
+        </div>
+        <div class="box">
+          <h1 class="heading">about <span>me</span></h1>
+          <p>
+            Name: Lawrence Laudeza <br>
+            <br>
+            Age: 19 Years Old <br> <br>
+            Address: Van Nuys, Los Angeles, California, United States <br> <br>
+            Nickname: Condor <br> <br>
+            Best Line: I was addicted to hacking, more for the intellectual challenge,
+the curiosity,the seduction of adventure; not for stealing,
+I'm still a hacker.
+          </p>
+        </div>
+      </div>
+    </section>
+   
+    <section class="skills" id="skills">
+      <h1 class="heading">SKI<span>LLS</span></h1>
+      <div class="col-container">
+        <div class="col">
+          <h2>Hacking</h2>
+          <div class="box">
+            <h3>Penetration Testing</h3>
+            <p>
+              The methodology of penetration testing is split into three types of testing: black-box assessment, white-box assessment, and gray-box assessment.
+            </p>
+          </div>
+          <div class="box">
+            <h3>Phishing</h3>
+            <p>
+              According to Proofpoint's 2022 State of the Phish Report, 83% of organisations fell victim to a phishing attack last year.
+            </p>
+          </div>
+          <div class="box">
+            <h3>Burpsuite Attack</h3>
+            <p>
+              Burp Suite is a fully featured web application attack tool: it does almost anything that you could ever want to do when penetration testing a web application. One of Burp Suite's main features is its ability to intercept HTTP requests.
+            </p>
+          </div>
+          
+        <div class="col">
+          <h2>Social engineering</h2>
+          <div class="box">
+            <h3>Logical Thinking</h3>
+            <p>
+              In the field of security awareness and associated training, the term “critical thinking” is thrown about as an effective defense against social engineering attacks.
+            </p>
+          </div>
+          <div class="box">
+            <h3>Nmap</h3>
+            <p>
+              Network scanning tool—an open source Linux command-line tool—used for network exploration, host discovery, and security auditing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="services" id="services">
+      <h1 class="heading">my <span>services</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <i class="icon material-icons"> grid_view </i>
+          <h2>Installing Linux</h2>
+          <p>
+            Don't try to install it if you don't know how to use it.
+          </p>
+          <a href="installing.html" class="btn-2">learn more <i class="material-icons"></i></a>
+        </div>
+        <div class="box">
+          <i class="icon material-icons"> poll </i>
+          <h2>Cleaning Computer</h2>
+          <p>
+            Get all the dust on you computer.<br>Format it when needed.
+          </p>
+          <a href="clean.html" class="btn-2">learn more <i class="material-icons"></i></a>
+        </div>
+        <div class="box">
+          <i class="icon material-icons"> smart_display </i>
+          <h2>Putting Virus</h2>
+          <p>
+           Use the talent in the right way this is just a bait.
+          </p>
+          <a href="virus.html" class="btn-2">learn more <i class="material-icons"></i></a>          
+        </div>
+      </div>
+    </section>
+   
+    <section class="contact" id="contact">
+      <h1 class="heading">Con<span>tact</span></h1>
+      <div class="col-container">
+        <div class="col">
+          <p>Email</p>
+          <span>mobigame@shopee.com</span>
+          <br />
+          <br />
+          <p>phone</p>
+          <span>09123456789</span>
+          <br />
+          <br />
+          <p>Facebook</p>
+          <span>Lawrence Gwapo</span>
+          <br />
+          <br />
+          <p>Address</p>
+          <span
+            >United States of Lapu-Lapu, <br />
+            Blg143 <br />
+            San Antonio Street</span
+          >
+        </div>
+        
+        <div class="col">
+          <input type="text" placeholder="your name" />
+          <input type="email" placeholder="your email" />
+          <input type="text" placeholder="your phone" />
+          <textarea name="" placeholder="write a message" id="" cols="30" rows="10"></textarea>
+          <a href="" class="btn">send message</a>
+        </div>      
+      </div>
+    </section>
+   
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
